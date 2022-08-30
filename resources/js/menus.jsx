@@ -9,58 +9,53 @@ import {
 
 const menus = [
     {
-        title: 'Dashboard',
+        title: "Dashboard",
         icon: <HomeOutlined />,
-        to: '/dashboard',
-        can: [
-            'view-dashboard',
-        ],
-        active: '/dashboard',
+        to: "/dashboard",
+        can: ["view-dashboard"],
+        active: "/dashboard",
     },
     {
-        title: 'Jenis Laporan',
+        title: "Jenis Laporan",
         icon: <DescriptionOutlined />,
-        to: '/jenis-laporan',
-        can: [
-            'view-jenis-laporan',
-        ],
-        active: '/jenis-laporan',
+        to: "/jenis-laporan",
+        can: ["view-jenis-laporan"],
+        active: "/jenis-laporan",
     },
     {
-        title: 'Indikator',
+        title: "Indikator",
         icon: <LocalOfferOutlined />,
-        to: '/indikator',
-        can: [
-            'view-indikator',
-        ],
-        active: '/indikator',
+        to: "/indikator",
+        can: ["view-indikator"],
+        active: "/indikator",
     },
     {
-        title: 'User',
+        title: "User",
         icon: <PeopleAltOutlined />,
-        to: '/user',
-        can: [
-            'view-user',
-        ],
-        active: '/user',
+        to: "/user",
+        can: ["view-user"],
+        active: "/user",
     },
     {
-        title: 'Role',
+        title: "Role",
         icon: <AdminPanelSettingsOutlined />,
-        to: '/role',
-        can: [
-            'view-role',
-        ],
-        active: '/role'
+        to: "/role",
+        can: ["view-role"],
+        active: "/role",
     },
     {
-        title: 'Permission',
+        title: "Permission",
         icon: <LocalPoliceOutlined />,
-        to: '/permission',
-        can: [
-            'view-permission',
-        ],
-        active: '/permission'
+        to: "/permission",
+        can: ["view-permission"],
+        active: "/permission",
+    },
+    {
+        title: "Tool Kit",
+        icon: <LocalPoliceOutlined />,
+        to: "/tool-kit",
+        can: ["view-tool-kit"],
+        active: "/tool-kit",
     },
 ];
 
